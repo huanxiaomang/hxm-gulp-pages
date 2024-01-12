@@ -1,0 +1,35 @@
+{
+  "name": "hxm-gulp-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "hxm-gulp-pages",
+    "zce"
+  ],
+  "repository": "huanxiaomang/hxm-gulp-pages",
+  "license": "MIT",
+  "author": "huanxiaomang <atri2022@163.com> (https://github.com/huanxiaomang)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "17.0.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
